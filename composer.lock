@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "38cc6bb325c0b8a1612ce552e61cc972",
+    "content-hash": "8f2fdeab9580cb54b680b4df639cc704",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2788,6 +2788,40 @@
                 "test"
             ],
             "time": "2015-05-11T14:41:42+00:00"
+        },
+        {
+            "name": "kwn/php-rdkafka-stubs",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kwn/php-rdkafka-stubs.git",
+                "reference": "c35103160ea21cc0e6861fbee4124a8108367213"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kwn/php-rdkafka-stubs/zipball/c35103160ea21cc0e6861fbee4124a8108367213",
+                "reference": "c35103160ea21cc0e6861fbee4124a8108367213",
+                "shasum": ""
+            },
+            "require": {
+                "ext-rdkafka": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Karol Wnuk",
+                    "email": "k.wnuk@ascetic.pl"
+                }
+            ],
+            "description": "Rdkafka extension stubs for your IDE",
+            "time": "2017-03-26T10:14:53+00:00"
         },
         {
             "name": "mockery/mockery",
