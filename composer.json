@@ -4,6 +4,23 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "repositories": {
+        "guazi-package": {
+            "type": "composer",
+            "url": "https://packages.guazi-corp.com",
+            "options": {
+                "ssl": {
+                    "verify_peer": false,
+                    "verify_peer_name": false,
+                    "allow_self_signed": true
+                }
+            }
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
