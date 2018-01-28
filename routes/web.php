@@ -19,3 +19,6 @@ Route::get('/default', function () {
 //    dd('test');
     return view('default');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
